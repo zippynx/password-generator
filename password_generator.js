@@ -166,3 +166,6 @@ function showToast() {
     clearTimeout(toastTimeout);
     toastTimeout = setTimeout(() => toast.classList.remove("show"), 2000);
 }
+
+updateSliderBackground();
+generate();
